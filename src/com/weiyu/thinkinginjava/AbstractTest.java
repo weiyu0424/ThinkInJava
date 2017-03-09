@@ -3,7 +3,15 @@ package com.weiyu.thinkinginjava;
 /**
  * Created by weiyu on 2017/2/27.
  */
-abstract class Person{
+class A{
+    private int i;
+    private int j;
+    /*public A(int i,int j){
+        this.i = i;
+        this.j = j;
+    }*/
+}
+abstract class Person extends A{
     public abstract void print();
     public void hello(){
         System.out.println("hello,world");
