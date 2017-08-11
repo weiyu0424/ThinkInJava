@@ -814,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502242701338</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加了归并排序跟快速排序">
+      <created>1502417496555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502417496555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -861,7 +868,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="新增了剑指offer上的题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了剑指offer上的题" />
+    <MESSAGE value="增加了归并排序跟快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了归并排序跟快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
