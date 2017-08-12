@@ -1,7 +1,7 @@
 package com.weiyu.offer.ali;
 
 public class Solution {
-    public int maxScore(int[] score) {
+    public static int maxScore(int[] score) {
         if(null == score || 0 == score.length)
             return 0;
 
@@ -21,17 +21,17 @@ public class Solution {
         return result;
     }
     
-    public int search(int[][] dp , int[][] visit , int[] numsPlus , int start , int end){
+    public static int search(int[][] dp , int[][] visit , int[] numsPlus , int start , int end){
         if(visit[start][end] == 1){
             return dp[start][end];
         }
         int res = 0;
         for(int i = start; i<=end ; i++){
-            int mid = 0;
-            if(0 == numsPlus[i])
-                mid = numsPlus[start-1] * numsPlus[i] * numsPlus[end+1];
-            else
-                mid = numsPlus[start-1] * numsPlus[i] * numsPlus[end+1];
+//            int mid = 0;
+//            if(0 == numsPlus[i])
+//                mid = numsPlus[start-1] * numsPlus[i] * numsPlus[end+1];
+//            else
+            int mid = numsPlus[start-1] * numsPlus[i] * numsPlus[end+1];
             int right = search(dp , visit , numsPlus , start , i - 1);
             int left = search(dp , visit , numsPlus , i + 1 , end);
             res = Math.max(res , mid + right + left);
@@ -40,5 +40,10 @@ public class Solution {
         dp[start][end] = res;
         
         return res;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{3,1,5,8};
+        System.out.println(maxScore(nums));
     }
 }
