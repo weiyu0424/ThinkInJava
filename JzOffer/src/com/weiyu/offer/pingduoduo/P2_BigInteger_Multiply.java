@@ -2,7 +2,7 @@ package com.weiyu.offer.pingduoduo;
 
 import java.util.Scanner;
 
-public class Second {
+public class P2_BigInteger_Multiply {
     public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		while (in.hasNext()) {

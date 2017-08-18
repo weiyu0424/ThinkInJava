@@ -8,7 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class P4 {
     public static void main(String[] args) {
-        ConcurrentHashMap
         Scanner in = new Scanner(System.in);
         while(in.hasNext()){
             int k = in.nextInt();

@@ -8,14 +8,14 @@ import java.util.List;
  */
 public class P1 {
     public static void main(String[] args) {
-        int[][] matrix = {{0,1,1,1,1,1}, {0,0,1,1,1,1}, {0,0,0,0,1,1}, {0,1,1,1,1,1}};
+        int[][] matrix = {{0,1,1,1,1,1}, {0,1,1,1,1,1}, {0,0,0,0,1,1}, {0,1,1,1,1,1}};
         List<String> list = getMostOne(matrix);
         for(String item : list){
             System.out.print(item + " ");
         }
     }
 
-    public static List getMostOne(int[][] matrix){
+    public static List<String> getMostOne(int[][] matrix){
         List<String> list = new ArrayList<>();
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -34,7 +34,7 @@ public class P1 {
             return list;
         }
         for(int k = 0;k < rows;k++){
-            if(1 == matrix[k][cols - count]){
+            if(1 == matrix[k][j + 1]){
                 list.add("[" + (k + 1) + "," + count + "]");
             }
         }
