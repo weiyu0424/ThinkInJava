@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * Created by Wei Yu on 2017/8/17.
  */
-public class TreeTrace {
+public class  TreeTrace {
     public int run(TreeNode root) {
         if(null == root)
             return 0;
