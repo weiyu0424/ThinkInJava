@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="checker-2.1.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JzOffer/src/checker-2.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
