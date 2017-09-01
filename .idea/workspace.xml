@@ -1010,7 +1010,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503745016929</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加了新美大的笔试题">
+      <created>1504244285232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504244285232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1060,7 +1067,8 @@
     <MESSAGE value="拼多多跟网易的代码" />
     <MESSAGE value="添加了阿里的笔试题" />
     <MESSAGE value="添加了滴滴的笔试题" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了滴滴的笔试题" />
+    <MESSAGE value="添加了新美大的笔试题" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了新美大的笔试题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
