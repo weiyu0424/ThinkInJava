@@ -1,7 +1,5 @@
 package com.weiyu.offer;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.*;
 
 /**

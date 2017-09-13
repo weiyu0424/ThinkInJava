@@ -10,9 +10,6 @@ public class Main31{
             int count = 0;
             for(int i = 1;i <= a;i++){
                 int j = 1;
-                if(Math.sqrt(i) % 1 != 0){
-                    j = i;
-                }
                 while(j <= b){
                     double result = Math.sqrt(i * j);
                     if(result % 1 == 0){

@@ -1,5 +1,7 @@
 package com.weiyu.offer;
 
+import java.util.ArrayList;
+
 /**
  * Created by Wei Yu on 2017/8/4.
  *
@@ -42,7 +44,6 @@ public class P16_ReverseList {
         node4.next = node5;
         ListNode root = ReverseListIterator(node1);
         printNode(root);
-
     }
 
     private static void printNode(ListNode root) {
