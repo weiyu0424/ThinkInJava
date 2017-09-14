@@ -877,7 +877,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505107155553</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加了海康威视的笔试">
+      <created>1505378746278</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1505378746278</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -929,7 +936,8 @@
     <MESSAGE value="添加了滴滴的笔试题" />
     <MESSAGE value="添加了新美大的笔试题" />
     <MESSAGE value="添加了京東、網易還有招銀以及愛奇藝以及大疆的筆試題" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了京東、網易還有招銀以及愛奇藝以及大疆的筆試題" />
+    <MESSAGE value="添加了海康威视的笔试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了海康威视的笔试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
